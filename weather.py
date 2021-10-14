@@ -6,13 +6,13 @@ import sqlalchemy
 
 input_data = {
     "api": "https://api.openweathermap.org/data/2.5/forecast?q={}&units=metric&lang=english&appid={}",
-    "api_key": "74343b194f3e153814c9a84b5849894a",
+    "api_key": "123",
     "db": {
 
-        "host": "192.168.132.123",
+        "host": "localhost",
         "database": "postgres",
-        "user": "pi",
-        "password": "SpamWalletRiverCircus",
+        "user": "pg",
+        "password": "pg",
         "port": "5432"
     },
 
