@@ -8,13 +8,13 @@ import time
 
 input_data = {
     "api": "https://v5.bvg.transport.rest/stops/900007105/departures?results=10",
-    "api_key": "74343b194f3e153814c9a84b5849894a",
+    "api_key": "12345",
     "db": {
 
-        "host": "192.168.132.123",
-        "database": "postgres",
-        "user": "pi",
-        "password": "SpamWalletRiverCircus",
+        "host": "localhost",
+        "database": "pg",
+        "user": "pg",
+        "password": "pwd",
         "port": "5432"
     },
 
